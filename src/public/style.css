@@ -1,0 +1,99 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #bd48f9;
+  background-color: #060606;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#tabel-transaksi input,
+#tabel-transaksi select {
+  width: 100%;
+  padding: 8px 20px;
+  font-size: 16px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #e8f0fe;
+}
+
+#tabel-transaksi button[type="submit"] {
+  padding: 10px;
+  background-color: #bd48f9 !important;
+  color: white;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#filter-container {
+  display: flex;
+  margin: 0 auto;
+  max-width: 800px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+#filter-container label {
+  flex: 0 0 100px;
+  padding: 10px;
+  font-weight: bold;
+}
+
+#filter-container input {
+  flex: 1 1 auto;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #e8f0fe;
+}
+
+#tabel-transaksi {
+  margin: 20px auto;
+  border-collapse: collapse;
+  color: white;
+}
+
+#tabel-transaksi th,
+#tabel-transaksi td {
+  padding: 10px;
+  border: 1px solid #000000;
+  text-align: center;
+}
+
+#tabel-transaksi th {
+  background-color: #e8f0fe;
+  font-weight: bold;
+  background-color: #252525;
+}
+
+#tabel-transaksi tbody tr:nth-child(even) {
+  background-color: #e8f0fe;
+}
+
+#tabel-transaksi tfoot td {
+  font-weight: bold;
+  background-color: #252525;
+}
+
+#tabel-transaksi tfoot td:nth-child(2) {
+  text-align: right;
+}
+
+#saldo {
+  font-weight: bold;
+  font-size: 20px;
+  color: #bd48f9;
+}
+
+tbody {
+  color: black;
+  background-color: #e8f0fe;
+}
