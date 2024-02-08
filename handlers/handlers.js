@@ -1,4 +1,4 @@
-const db = require("./db");
+const db = require("../database/db");
 
 exports.daftarTransaksi = async (req, res) => {
   try {

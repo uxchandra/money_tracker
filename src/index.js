@@ -3,7 +3,7 @@ const bodyParser = require("body-parser");
 const morgan = require("morgan");
 const path = require("path");
 
-const routes = require("./routes");
+const routes = require("../handlers/routes");
 
 const app = express();
 
